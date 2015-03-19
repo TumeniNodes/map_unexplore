@@ -1,0 +1,11 @@
+#!/usr/bin/bash
+
+# remove Nether from Stampyworld
+
+cd ~/.minetest/worlds/stampyworld/
+
+mv map.sqlite map.sqlite.big
+
+python ~/bin/nether.py
+
+
